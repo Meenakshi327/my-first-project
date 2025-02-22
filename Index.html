@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:palevioletred; 
+        }
+        .container{
+            background-color: aquamarine;
+            width: 30%;
+            margin: auto;
+            padding: 10% 3%;
+            border-radius: 20px;
+        }
+        .form-feild input,.form-feild select{
+            width: 90%;
+            padding: 20px;
+        }
+        button{
+            background-color: green;
+            color: white;
+            padding: 10px;
+            border: none;
+            width:45%;
+            border-radius: 10px;
+            font-size: 1.3rem;
+        }
+        @media (max-width:436px) {
+            .container{
+                width: 90%;
+            }
+        }
+    </style>
+<body>
+    <form class="container"="./login.html">
+        <h1 class="title">register</h1>
+        <p class="form-field"> 
+<input type="name"
+placeholder="enter your name"required/>
+    </p>
+    <p class="form=field">
+        <input type="email"
+        placeholder="enter your email id"required/>
+    </p>
+    <p class="form-feild">
+        <input type="password"
+        placeholder="enter your password"required/>
+    </p>
+    <p class="form-feild">
+        <input type="radio" name="gender"/>male
+        <input type="radio" name="gender"/>female
+    </p>
+    <p class="form-feild">
+        <input type="date"
+        placeholder="enter your date of birth"required/>
+        
+    </p>
+    <p class="form-feild">
+        <select required>
+            <option value="">select your state</option>
+                <option value="">AP</option>
+                <option value="">TS</option>
+                <option value="">DL</option>
+                <option value="">TN</option>
+                <option value="">TN</option>
+                <option value="">MH</option>
+                <option value="">HP</option>
+                <option value="">K</option>
+                <option value="">UP</option>
+        </select> 
+    </p>
+<P class="form-feild">
+    <input type="file"/>
+</P>
+    </p>
+    <button>submit</button>
+    </form>
+</body>
+</html>
